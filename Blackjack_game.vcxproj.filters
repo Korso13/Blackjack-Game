@@ -30,6 +30,9 @@
     <ClCompile Include="func\BJ_Extra_Functions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="func\BJ_Service_Functions.cpp">
+      <Filter>Исходные файлы\external</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.hpp">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="func\BJ_Extra_Functions.hpp">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="func\BJ_Service_Functions.hpp">
+      <Filter>Исходные файлы\external</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

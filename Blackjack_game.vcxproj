@@ -130,11 +130,13 @@
     <ClCompile Include="Blackjack_game.cpp" />
     <ClCompile Include="func\BJ_Classes_Functions.cpp" />
     <ClCompile Include="func\BJ_Extra_Functions.cpp" />
+    <ClCompile Include="func\BJ_Service_Functions.cpp" />
     <ClCompile Include="func\custom_operators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func\BJ_Classes_Functions.h" />
     <ClInclude Include="func\BJ_Extra_Functions.hpp" />
+    <ClInclude Include="func\BJ_Service_Functions.hpp" />
     <ClInclude Include="func\custom_operators.h" />
     <ClInclude Include="pch.hpp" />
   </ItemGroup>

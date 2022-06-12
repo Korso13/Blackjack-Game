@@ -1,6 +1,7 @@
 #pragma once
 #include "../pch.hpp"
 #include "BJ_Classes_Functions.h"
+#include "custom_operators.h"
 
 //Card class methods:
 
@@ -12,7 +13,10 @@ void Card::Flip()
 
 Ranks Card::GetCardValue() const
 {
-	return m_value;
+	if (m_faceUp == true)
+		return m_value;
+	else
+		return faceDown; //value in case card is face down to prevent revealing it by printing values sum of dealer's cards. No Cheating!
 }
 
 
